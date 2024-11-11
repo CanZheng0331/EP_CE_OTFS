@@ -18,7 +18,7 @@ Refer to the OTFS part on the Mathworks official website: https://www.mathworks.
 
 Run OTFS_performance.m to get NMSE curve (SNR_pilot as the x-axis) and BER curve (SNR_data as the y-axis);
 
-Run Channel_Visualization.m to get the DD channel responce plot (allows the fractional Doppler)
+Run Channel_Visualization.m to get the DD domain channel responce plot (allows the fractional Doppler)
 
 Can be modified to a more complex channel model as needed, refer to Prof. Viterbo's open source code;
 
