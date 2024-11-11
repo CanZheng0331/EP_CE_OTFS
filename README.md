@@ -6,6 +6,8 @@
 
 运行 OTFS_performance.m 即可输出随着导频 SNR 变化的 NMSE 曲线和随着数据信息 SNR 变化的 BER 曲线;
 
+运行 Channel_Visualization.m 即可对 DD 域信道响应进行可视化（支持分数多普勒）；
+
 可按需修改为更复杂的信道模型，可参考 Viterbo 教授的开源代码；
 
 如果代码有误，请及时告知。
@@ -15,6 +17,8 @@ A simple demo that implements "Embedded Pilot-Aided Channel Estimation for OTFS 
 Refer to the OTFS part on the Mathworks official website: https://www.mathworks.com/help/comm/ug/otfs-modulation.html;
 
 Run OTFS_performance.m to get NMSE curve (SNR_pilot as the x-axis) and BER curve (SNR_data as the y-axis);
+
+Run Channel_Visualization.m to get the DD channel responce plot (allows the fractional Doppler)
 
 Can be modified to a more complex channel model as needed, refer to Prof. Viterbo's open source code;
 
